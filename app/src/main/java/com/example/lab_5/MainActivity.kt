@@ -85,8 +85,8 @@ fun PantallaPrincipal(modifier: Modifier = Modifier) {
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Column {
-                Text("Lunes", fontSize = 28.sp, fontWeight = FontWeight.Bold)
-                Text("30 de septiembre", fontSize = 16.sp)
+                Text("Sábado", fontSize = 28.sp, fontWeight = FontWeight.Bold)
+                Text("31 De Mayo", fontSize = 16.sp)
             }
             Button(onClick = { /* No pide acción */ }) {
                 Text("Terminar jornada")
@@ -110,7 +110,7 @@ fun PantallaPrincipal(modifier: Modifier = Modifier) {
                     Column {
                         Text("Pizza Hut", fontSize = 20.sp, fontWeight = FontWeight.Bold)
                         Text("Zona 10", fontSize = 14.sp)
-                        Text("8:00 AM - 9:00 PM", fontSize = 14.sp)
+                        Text("3:00 PM - 9:00 PM", fontSize = 14.sp)
                     }
                     Icon(
                         imageVector = Icons.Filled.LocationOn,
